@@ -1,0 +1,5 @@
+2021-10-12 02:57:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point{x=3.0, y=44.0} and Point{x=3.1, y=11.3} for valid ellipse : true
+2021-10-12 02:57:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point{x=-1.0, y=3.0} and Point{x=1.0, y=3.0} for valid ellipse : false
+2021-10-12 02:57:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point{x=-1.32, y=4.5} and Point{x=6.8, y=-3.1} for valid ellipse : true
+2021-10-12 02:57:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point{x=6.5, y=5.0} and Point{x=6.5, y=-2.0} for valid ellipse : false
+2021-10-12 02:57:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point{x=2.3, y=-2.5} and Point{x=0.3, y=-2.5} for valid ellipse : false

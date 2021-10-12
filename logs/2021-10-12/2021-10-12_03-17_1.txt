@@ -1,0 +1,1 @@
+2021-10-12 03:17:46 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse{point1=Point{x=2.4, y=5.8}, point2=Point{x=3.8, y=10.0}, id=1} Perimeter= 9.834740623457016

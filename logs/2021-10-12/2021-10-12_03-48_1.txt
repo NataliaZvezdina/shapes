@@ -1,0 +1,2 @@
+2021-10-12 03:48:01 [main] [checkIfCircle] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse{point1=Point{x=-1.4, y=-1.4}, point2=Point{x=1.4, y=1.4}, id=1} is circle: false
+2021-10-12 03:48:01 [main] [checkIfCircle] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse{point1=Point{x=-3.5, y=2.3}, point2=Point{x=2.4, y=5.45}, id=2} is circle: false

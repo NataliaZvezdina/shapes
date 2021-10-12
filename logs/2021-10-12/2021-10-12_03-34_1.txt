@@ -1,0 +1,2 @@
+2021-10-12 03:34:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse{point1=Point{x=2.4, y=5.8}, point2=Point{x=3.8, y=10.0}, id=1} Square= 4.618141200776996
+2021-10-12 03:34:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse{point1=Point{x=-3.5, y=2.3}, point2=Point{x=2.4, y=5.45}, id=2} Square= 14.59662486674158

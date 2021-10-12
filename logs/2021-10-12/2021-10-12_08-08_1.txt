@@ -1,0 +1,13 @@
+2021-10-12 08:08:09 [main] [readLines] [29] INFO  by.zvezdina.shapes.reader.CustomReader - Read file data/example1.txt
+2021-10-12 08:08:09 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - -2 -2 2 2
+2021-10-12 08:08:09 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - 66
+2021-10-12 08:08:09 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - mmu rr 6 7
+2021-10-12 08:08:09 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - hhh
+2021-10-12 08:08:09 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - 6 5
+2021-10-12 08:08:09 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - 6
+2021-10-12 08:08:09 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - 0vbh
+2021-10-12 08:08:09 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: -2 -2 2 2 - true
+2021-10-12 08:08:09 [main] [parseLine] [23] INFO  by.zvezdina.shapes.parser.StringParser - Result of parsing line: [-2.0, -2.0, 2.0, 2.0]
+2021-10-12 08:08:09 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point{x=-2.0, y=-2.0} and Point{x=2.0, y=2.0} for valid ellipse : true
+2021-10-12 08:08:09 [main] [createEllipse] [24] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse{point1=Point{x=-2.0, y=-2.0}, point2=Point{x=2.0, y=2.0}, id=1}
+2021-10-12 08:08:09 [main] [checkIfCircle] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse{point1=Point{x=-2.0, y=-2.0}, point2=Point{x=2.0, y=2.0}, id=1} is circle: true 0.0

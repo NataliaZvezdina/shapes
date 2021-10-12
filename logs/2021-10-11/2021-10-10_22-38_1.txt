@@ -1,0 +1,8 @@
+2021-10-10 22:38:18 [main] [readLines] [30] INFO  by.zvezdina.shapes.reader.CustomReader - Read file data/example1.txt
+2021-10-10 22:38:18 [main] [lambda$readLines$0] [33] INFO  by.zvezdina.shapes.reader.CustomReader - 2 4 cgvb 6.7 88
+2021-10-10 22:38:18 [main] [lambda$readLines$0] [33] INFO  by.zvezdina.shapes.reader.CustomReader - 66
+2021-10-10 22:38:18 [main] [lambda$readLines$0] [33] INFO  by.zvezdina.shapes.reader.CustomReader - mmu rr 6 7
+2021-10-10 22:38:18 [main] [lambda$readLines$0] [33] INFO  by.zvezdina.shapes.reader.CustomReader - hhh
+2021-10-10 22:38:18 [main] [lambda$readLines$0] [33] INFO  by.zvezdina.shapes.reader.CustomReader - 6 5
+2021-10-10 22:38:18 [main] [lambda$readLines$0] [33] INFO  by.zvezdina.shapes.reader.CustomReader - 6
+2021-10-10 22:38:18 [main] [lambda$readLines$0] [33] INFO  by.zvezdina.shapes.reader.CustomReader - 0vbh
