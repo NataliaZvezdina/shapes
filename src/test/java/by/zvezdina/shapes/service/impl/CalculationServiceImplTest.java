@@ -53,7 +53,7 @@ public class CalculationServiceImplTest {
     @Test(dataProvider = "checkIfCircleTest")
     public void testCheckIfCircle(Ellipse ellipse, boolean expected) {
 
-        boolean actual = service.checkIfCircle(ellipse);
+        boolean actual = service.checkIfDegenerate(ellipse);
 
         assertEquals(actual, expected);
     }

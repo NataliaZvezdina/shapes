@@ -38,7 +38,7 @@ public class CalculationServiceImpl implements CalculationService {
     }
 
     @Override
-    public boolean checkIfCircle(Ellipse ellipse) {
+    public boolean checkIfDegenerate(Ellipse ellipse) {
         Point point1 = ellipse.getPoint1();
         Point point2 = ellipse.getPoint2();
 

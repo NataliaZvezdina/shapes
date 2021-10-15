@@ -8,5 +8,5 @@ public interface CalculationService {
 
     double calculateSquare(Ellipse ellipse);
 
-    boolean checkIfCircle(Ellipse ellipse);
+    boolean checkIfDegenerate(Ellipse ellipse);
 }

@@ -1,5 +1,7 @@
 package by.zvezdina.shapes.entity;
 
+import java.util.StringJoiner;
+
 public class Point {
     private double x;
     private double y;
@@ -46,9 +48,9 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point{" +
-                "x=" + x +
-                ", y=" + y +
-                '}';
+        return new StringJoiner(", ", Point.class.getSimpleName() + "[", "]")
+                .add("x=" + x)
+                .add("y=" + y)
+                .toString();
     }
 }
