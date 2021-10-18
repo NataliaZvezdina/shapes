@@ -13,13 +13,18 @@ import by.zvezdina.shapes.observer.impl.EllipseObserverImpl;
 import by.zvezdina.shapes.parser.StringParser;
 import by.zvezdina.shapes.reader.CustomReader;
 import by.zvezdina.shapes.repository.EllipseRepository;
+import by.zvezdina.shapes.repository.EllipseSpecification;
+import by.zvezdina.shapes.repository.impl.PerimeterEllipseSpecificationImpl;
 import by.zvezdina.shapes.service.CalculationService;
 import by.zvezdina.shapes.service.impl.CalculationServiceImpl;
 import by.zvezdina.shapes.validator.EllipseValidator;
 import by.zvezdina.shapes.validator.StringValidator;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
     private static final String FILE_PATH1 = "data/example1.txt";
@@ -77,6 +82,24 @@ public class Main {
         List<Ellipse> sortedByEllipticity = repository.sort(new EllipticityComparator());
         System.out.println("After sorting by ellipticity: ");
         sortedByEllipticity.forEach(System.out::println);
+
+        System.out.println();
+
+        EllipseSpecification specification = new  PerimeterEllipseSpecificationImpl(20, 25);
+        List<Ellipse> selectByPerimeter = repository.query(specification);
+        System.out.println("Query -> select by perimeter from 20 to 25:");
+        selectByPerimeter.forEach(System.out::println);
+
+        System.out.println();
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1, "a");
+        map.put(2, "b");
+        map.put(3, "c");
+        map.put(4, "d");
+
+        String toFind = "a";
+
+        map.entrySet().stream().filter(e -> e.getValue().equals(toFind)).map(Map.Entry::getValue);
 
     }
 }
