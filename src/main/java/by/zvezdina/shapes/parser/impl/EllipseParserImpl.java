@@ -1,12 +1,13 @@
-package by.zvezdina.shapes.parser;
+package by.zvezdina.shapes.parser.impl;
 
+import by.zvezdina.shapes.parser.EllipseParser;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
 
-public class StringParser {
+public class EllipseParserImpl implements EllipseParser {
     private static final Logger logger = LogManager.getLogger();
     private static final String DELIMITER = "\\s";
 

@@ -1,13 +1,13 @@
-2021-10-12 03:52:17 [main] [readLines] [29] INFO  by.zvezdina.shapes.reader.CustomReader - Read file data/example1.txt
-2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - -2 -2 2 2
-2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - 66
-2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - mmu rr 6 7
-2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - hhh
-2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - 6 5
-2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - 6
-2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.CustomReader - 0vbh
+2021-10-12 03:52:17 [main] [readLines] [29] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - Read file data/example1.txt
+2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - -2 -2 2 2
+2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 66
+2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - mmu rr 6 7
+2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - hhh
+2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 6 5
+2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 6
+2021-10-12 03:52:17 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 0vbh
 2021-10-12 03:52:17 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: -2 -2 2 2 - true
-2021-10-12 03:52:17 [main] [parseLine] [23] INFO  by.zvezdina.shapes.parser.StringParser - Result of parsing line: [-2.0, -2.0, 2.0, 2.0]
+2021-10-12 03:52:17 [main] [parseLine] [23] INFO  by.zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [-2.0, -2.0, 2.0, 2.0]
 2021-10-12 03:52:17 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point{x=-2.0, y=-2.0} and Point{x=2.0, y=2.0} for valid ellipse : true
 2021-10-12 03:52:17 [main] [createEllipse] [24] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse{point1=Point{x=-2.0, y=-2.0}, point2=Point{x=2.0, y=2.0}, id=1}
 2021-10-12 03:52:17 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse{point1=Point{x=-2.0, y=-2.0}, point2=Point{x=2.0, y=2.0}, id=1} Square= 12.566370614359172

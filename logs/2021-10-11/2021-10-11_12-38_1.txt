@@ -1,2 +1,2 @@
 2021-10-11 12:38:03 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: 2.3 -1.5 7 6.75 - true
-2021-10-11 12:38:03 [main] [parseLine] [23] INFO  by.zvezdina.shapes.parser.StringParser - Result of parsing line: [2.3, -1.5, 7.0, 6.75]
+2021-10-11 12:38:03 [main] [parseLine] [23] INFO  by.zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [2.3, -1.5, 7.0, 6.75]

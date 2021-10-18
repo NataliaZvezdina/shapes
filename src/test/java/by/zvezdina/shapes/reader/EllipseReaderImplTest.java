@@ -3,14 +3,14 @@ package by.zvezdina.shapes.reader;
 import by.zvezdina.shapes.exception.EllipseException;
 import  static org.testng.Assert.*;
 
+import by.zvezdina.shapes.reader.impl.EllipseReaderImpl;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.net.URISyntaxException;
 import java.util.List;
 
-public class CustomReaderTest {
-    private CustomReader reader = new CustomReader();
+public class EllipseReaderImplTest {
+    private EllipseReaderImpl reader = new EllipseReaderImpl();
     private static final String PATH1 = "test1.txt";
     private static final String PATH2 = "test2.txt";
     private static final String PATH3 = "test3.txt";

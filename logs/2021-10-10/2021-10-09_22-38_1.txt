@@ -1,1 +1,1 @@
-2021-10-09 22:38:03 [main] [readLines] [26] ERROR by.zvezdina.shapes.reader.CustomReader - Error while reading file data/example1.txt
+2021-10-09 22:38:03 [main] [readLines] [26] ERROR by.zvezdina.shapes.reader.impl.EllipseReaderImpl - Error while reading file data/example1.txt

@@ -1,6 +1,7 @@
-package by.zvezdina.shapes.reader;
+package by.zvezdina.shapes.reader.impl;
 
 import by.zvezdina.shapes.exception.EllipseException;
+import by.zvezdina.shapes.reader.EllipseReader;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,7 +18,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class CustomReader {
+public class EllipseReaderImpl implements EllipseReader {
     private static final Logger logger = LogManager.getLogger();
 
     public List<String> readLines(String filePath) throws EllipseException {

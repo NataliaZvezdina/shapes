@@ -2,11 +2,13 @@ package by.zvezdina.shapes.parser;
 
 import by.zvezdina.shapes.exception.EllipseException;
 import  static org.testng.Assert.*;
+
+import by.zvezdina.shapes.parser.impl.EllipseParserImpl;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class StringParserTest {
-    private StringParser parser = new StringParser();
+public class EllipseParserImplTest {
+    private EllipseParserImpl parser = new EllipseParserImpl();
     private String incorrectLine = "bb 9 -2.4 0";
 
     @DataProvider(name="dataPr")
