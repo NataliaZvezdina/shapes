@@ -56,8 +56,6 @@ public class Main {
             warehouse.put(ellipse.getEllipseId(), parameter);
         }
 
-
-
         EllipseObserver observer1 = new EllipseObserverImpl();
         EllipseObserver observer2 = new EllipseObserverImpl();
 
