@@ -14,15 +14,14 @@ import by.zvezdina.shapes.parser.impl.EllipseParserImpl;
 import by.zvezdina.shapes.reader.impl.EllipseReaderImpl;
 import by.zvezdina.shapes.repository.EllipseRepository;
 import by.zvezdina.shapes.repository.EllipseSpecification;
-import by.zvezdina.shapes.repository.impl.PerimeterEllipseSpecificationImpl;
+import by.zvezdina.shapes.repository.impl.PerimeterRangeSpecificationImpl;
 import by.zvezdina.shapes.service.CalculationService;
 import by.zvezdina.shapes.service.impl.CalculationServiceImpl;
 import by.zvezdina.shapes.validator.EllipseValidator;
 import by.zvezdina.shapes.validator.StringValidator;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
 import java.util.stream.Collectors;
 
 public class Main {
@@ -82,7 +81,7 @@ public class Main {
 
         System.out.println();
 
-        EllipseSpecification specification = new  PerimeterEllipseSpecificationImpl(20, 25);
+        EllipseSpecification specification = new PerimeterRangeSpecificationImpl(20, 25);
         List<Ellipse> selectByPerimeter = repository.query(specification);
         System.out.println("Query -> select by perimeter from 20 to 25:");
         selectByPerimeter.forEach(System.out::println);

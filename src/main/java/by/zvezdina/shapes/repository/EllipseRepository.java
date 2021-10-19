@@ -11,9 +11,11 @@ import java.util.stream.Collectors;
 public class EllipseRepository {
 
     private static final EllipseRepository instance = new EllipseRepository();
-    private List<Ellipse> ellipses = new ArrayList<>();
+    private List<Ellipse> ellipses;
 
-    private EllipseRepository() {}
+    private EllipseRepository() {
+        ellipses = new ArrayList<>();
+    }
 
     public static EllipseRepository getInstance() {
         return instance;

@@ -9,12 +9,17 @@ import java.util.Map;
 public class Warehouse {
     private static final Logger logger = LogManager.getLogger();
 
-    private static final Warehouse instance = new Warehouse();
-    private Map<Integer, EllipseParameter> parameters = new HashMap<>();
+    private static Warehouse instance;
+    private final Map<Integer, EllipseParameter> parameters;
 
-    private Warehouse() {}
+    private Warehouse() {
+        parameters = new HashMap<>();
+    }
 
     public static Warehouse getInstance() {
+        if (instance == null) {
+            instance = new Warehouse();
+        }
         return instance;
     }
 

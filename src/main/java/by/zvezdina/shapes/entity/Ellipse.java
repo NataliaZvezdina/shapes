@@ -41,6 +41,9 @@ public class Ellipse implements EllipseObservable {
 
     @Override
     public void notifyObservers() {
+        if (observers.isEmpty()) {
+            return;
+        }
         EllipseEvent event = new EllipseEvent(this);
         observers.forEach(o -> o.updateParameters(event));
     }

@@ -5,11 +5,11 @@ import by.zvezdina.shapes.repository.EllipseSpecification;
 import by.zvezdina.shapes.service.CalculationService;
 import by.zvezdina.shapes.service.impl.CalculationServiceImpl;
 
-public class PerimeterEllipseSpecificationImpl implements EllipseSpecification {
+public class PerimeterRangeSpecificationImpl implements EllipseSpecification {
     private double from;
     private double to;
 
-    public PerimeterEllipseSpecificationImpl(double from, double to) {
+    public PerimeterRangeSpecificationImpl(double from, double to) {
         this.from = from;
         this.to = to;
     }
