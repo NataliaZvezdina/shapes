@@ -1,6 +1,5 @@
 package by.zvezdina.shapes;
 
-import by.zvezdina.shapes.comparator.EllipticityComparator;
 import by.zvezdina.shapes.comparator.PerimeterComparator;
 import by.zvezdina.shapes.entity.Ellipse;
 import by.zvezdina.shapes.entity.EllipseParameter;
@@ -74,12 +73,6 @@ public class Main {
         List<Ellipse> sortedByPerimeter = repository.sort(new PerimeterComparator());
         System.out.println("After sorting by perimeter: ");
         sortedByPerimeter.forEach(System.out::println);
-
-        List<Ellipse> sortedByEllipticity = repository.sort(new EllipticityComparator());
-        System.out.println("After sorting by ellipticity: ");
-        sortedByEllipticity.forEach(System.out::println);
-
-        System.out.println();
 
         EllipseSpecification specification = new PerimeterRangeSpecificationImpl(20, 25);
         List<Ellipse> selectByPerimeter = repository.query(specification);
