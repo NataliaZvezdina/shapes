@@ -1,8 +1,10 @@
-package by.zvezdina.shapes.service.impl;
+package by.zvezdina.shapes.service;
 
 import by.zvezdina.shapes.entity.Ellipse;
 import by.zvezdina.shapes.entity.Point;
 import  static org.testng.Assert.*;
+
+import by.zvezdina.shapes.service.impl.CalculationServiceImpl;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
