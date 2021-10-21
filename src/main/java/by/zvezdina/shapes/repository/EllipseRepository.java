@@ -72,5 +72,4 @@ public class EllipseRepository {
         ellipsesCopy.sort(comparator);
         return ellipsesCopy;
     }
-
 }

@@ -1,0 +1,6 @@
+2021-10-21 10:47:11 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=2.3, y=-1.5] and Point[x=2.3, y=6.75] for valid ellipse : false
+2021-10-21 10:47:11 [main] [createEllipse] [32] ERROR by.zvezdina.shapes.factory.EllipseFactory - Cannot create ellipse from data: [2.3, -1.5, 2.3, 6.75]
+2021-10-21 10:47:11 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=-14.3, y=8.5] and Point[x=10.15, y=8.5] for valid ellipse : false
+2021-10-21 10:47:11 [main] [createEllipse] [32] ERROR by.zvezdina.shapes.factory.EllipseFactory - Cannot create ellipse from data: [-14.3, 8.5, 10.15, 8.5]
+2021-10-21 10:47:11 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=6.8, y=15.5] and Point[x=-3.4, y=15.5] for valid ellipse : false
+2021-10-21 10:47:11 [main] [createEllipse] [32] ERROR by.zvezdina.shapes.factory.EllipseFactory - Cannot create ellipse from data: [6.8, 15.5, -3.4, 15.5]

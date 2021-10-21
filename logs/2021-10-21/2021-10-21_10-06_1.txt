@@ -1,0 +1,2 @@
+2021-10-21 10:06:14 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=2.3, y=-1.5] and Point[x=7.0, y=6.75] for valid ellipse : true
+2021-10-21 10:06:14 [main] [createEllipse] [37] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=2, point1=Point[x=2.3, y=-1.5], point2=Point[x=7.0, y=6.75]]

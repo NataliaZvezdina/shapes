@@ -4,7 +4,7 @@ import  static org.testng.Assert.*;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class StringValidatorTest {
+public class DoubleNumbersValidatorTest {
 
     @DataProvider(name="testLines")
     public Object[][] createData() {
@@ -20,7 +20,7 @@ public class StringValidatorTest {
     @Test(dataProvider = "testLines")
     public void testIsLineValid(String line, boolean expected) {
 
-        boolean actual = StringValidator.isLineValid(line);
+        boolean actual = DoubleNumbersValidator.isLineValid(line);
 
         assertEquals(actual, expected);
     }

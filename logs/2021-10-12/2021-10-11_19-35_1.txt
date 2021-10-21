@@ -1,2 +1,2 @@
-2021-10-11 19:35:24 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: bb 9 -2.4 0 - false
+2021-10-11 19:35:24 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: bb 9 -2.4 0 - false
 2021-10-11 19:35:24 [main] [parseLine] [17] ERROR by.zvezdina.shapes.parser.impl.EllipseParserImpl - Cannot parse, incorrect line: bb 9 -2.4 0

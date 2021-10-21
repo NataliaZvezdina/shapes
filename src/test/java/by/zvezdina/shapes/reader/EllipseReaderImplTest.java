@@ -18,8 +18,9 @@ public class EllipseReaderImplTest {
     @DataProvider(name="read test files")
     public Object[][] dataProvider() {
         return new Object[][] {
-                {PATH1, List.of("3 5 ff", "er 5 77", "1  3     8", "vfg t")},
-                {PATH2, List.of("23 4 5 6", "1 3", "3", "0 bb")}
+                {PATH1, List.of("-2.4 5 7.5 1.25", "3 5.4 2.1 -1.5", "3 4.1 -3.5 0")},
+                {PATH2, List.of("23 4 5 6", "1 3 -1 2", "3.1 7.5 -5 8", "-4.3 9.1 0.5 3")},
+                {PATH3, List.of("9 -11 2 2.3", "4.2 5 6.6 7", "3 -5 9 1")}
         };
     }
 
@@ -27,6 +28,7 @@ public class EllipseReaderImplTest {
     public void testReadLines(String filePath, List<String> expected) throws EllipseException {
 
         List<String> actual = reader.readLines(filePath);
+
         assertEquals(actual, expected);
     }
 }

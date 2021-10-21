@@ -6,7 +6,7 @@
 2021-10-12 03:58:28 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 6 5
 2021-10-12 03:58:28 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 6
 2021-10-12 03:58:28 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 0vbh
-2021-10-12 03:58:28 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: -2 -2 2 2 - true
+2021-10-12 03:58:28 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: -2 -2 2 2 - true
 2021-10-12 03:58:28 [main] [parseLine] [23] INFO  by.zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [-2.0, -2.0, 2.0, 2.0]
 2021-10-12 03:58:28 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point{x=-2.0, y=-2.0} and Point{x=2.0, y=2.0} for valid ellipse : true
 2021-10-12 03:58:28 [main] [createEllipse] [24] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse{point1=Point{x=-2.0, y=-2.0}, point2=Point{x=2.0, y=2.0}, id=1}

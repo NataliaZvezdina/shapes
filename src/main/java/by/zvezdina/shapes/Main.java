@@ -13,14 +13,16 @@ import by.zvezdina.shapes.parser.impl.EllipseParserImpl;
 import by.zvezdina.shapes.reader.impl.EllipseReaderImpl;
 import by.zvezdina.shapes.repository.EllipseRepository;
 import by.zvezdina.shapes.repository.EllipseSpecification;
+import by.zvezdina.shapes.repository.impl.DegenerateEllipseSpecificationImpl;
+import by.zvezdina.shapes.repository.impl.IdRangeSpecificationImpl;
+import by.zvezdina.shapes.repository.impl.IdSpecificationImpl;
 import by.zvezdina.shapes.repository.impl.PerimeterRangeSpecificationImpl;
 import by.zvezdina.shapes.service.CalculationService;
 import by.zvezdina.shapes.service.impl.CalculationServiceImpl;
-import by.zvezdina.shapes.validator.EllipseValidator;
-import by.zvezdina.shapes.validator.StringValidator;
 
 import java.util.List;
 
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -34,10 +36,10 @@ public class Main {
 
         EllipseParserImpl parser = new EllipseParserImpl();
         List<Ellipse> ellipses = lines.stream()
-                .filter(StringValidator::isLineValid)
                 .map(parser::parseLine)
-                .filter(arr -> EllipseValidator.isEllipseValid(new Point(arr[0], arr[1]), new Point(arr[2], arr[3])))
                 .map(EllipseFactory::createEllipse)
+                .filter(Optional::isPresent)
+                .map(Optional::get)
                 .collect(Collectors.toList());
 
         CalculationService service = new CalculationServiceImpl();
@@ -74,11 +76,26 @@ public class Main {
         System.out.println("After sorting by perimeter: ");
         sortedByPerimeter.forEach(System.out::println);
 
-        EllipseSpecification specification = new PerimeterRangeSpecificationImpl(20, 25);
-        List<Ellipse> selectByPerimeter = repository.query(specification);
+
+        EllipseSpecification specification1 = new PerimeterRangeSpecificationImpl(20, 25);
+        List<Ellipse> selectByPerimeter = repository.query(specification1);
         System.out.println("Query -> select by perimeter from 20 to 25:");
         selectByPerimeter.forEach(System.out::println);
 
+        EllipseSpecification specification2 = new IdRangeSpecificationImpl(3, 6);
+        List<Ellipse> selectedWithinIdRange = repository.query(specification2);
+        System.out.println("Query -> select by id from 3 to 6");
+        selectedWithinIdRange.forEach(System.out::println);
+
+        EllipseSpecification specification3 = new IdSpecificationImpl(4);
+        List<Ellipse> selectedById = repository.query(specification3);
+        System.out.println("Query -> selected by id = 4");
+        selectedById.forEach(System.out::println);
+
+        EllipseSpecification specification4 = new DegenerateEllipseSpecificationImpl();
+        List<Ellipse> selectedDegenerate = repository.query(specification4);
+        System.out.println("Query -> degenerate ellipses selected");
+        selectedDegenerate.forEach(System.out::println);
 
     }
 }

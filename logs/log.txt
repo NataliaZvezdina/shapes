@@ -1,109 +1,109 @@
-2021-10-15 10:12:57 [main] [readLines] [29] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - Read file data/example1.txt
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - -2 -2 2 2
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 66
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl -
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - mmu rr 6 7
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 2.1 -3.4 2.5 5.6
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 6 5 2.1 3.6
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 6 1.2 -5.5 4.3
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 0vbh
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - -3 4 6.2 -2
-2021-10-15 10:12:57 [main] [lambda$readLines$0] [32] INFO  by.zvezdina.shapes.reader.impl.EllipseReaderImpl - 1.4 4.2 3.1 3.2
-2021-10-15 10:12:57 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: -2 -2 2 2 - true
-2021-10-15 10:12:57 [main] [parseLine] [17] INFO  by.zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [-2.0, -2.0, 2.0, 2.0]
-2021-10-15 10:12:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=-2.0, y=-2.0] and Point[x=2.0, y=2.0] for valid ellipse : true
-2021-10-15 10:12:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=-2.0, y=-2.0] and Point[x=2.0, y=2.0] for valid ellipse : true
-2021-10-15 10:12:57 [main] [createEllipse] [24] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]]
-2021-10-15 10:12:57 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: 66 - false
-2021-10-15 10:12:57 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity:  - false
-2021-10-15 10:12:57 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: mmu rr 6 7 - false
-2021-10-15 10:12:57 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: 2.1 -3.4 2.5 5.6 - true
-2021-10-15 10:12:57 [main] [parseLine] [17] INFO  by.zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [2.1, -3.4, 2.5, 5.6]
-2021-10-15 10:12:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=2.1, y=-3.4] and Point[x=2.5, y=5.6] for valid ellipse : true
-2021-10-15 10:12:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=2.1, y=-3.4] and Point[x=2.5, y=5.6] for valid ellipse : true
-2021-10-15 10:12:57 [main] [createEllipse] [24] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]]
-2021-10-15 10:12:57 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: 6 5 2.1 3.6 - true
-2021-10-15 10:12:57 [main] [parseLine] [17] INFO  by.zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [6.0, 5.0, 2.1, 3.6]
-2021-10-15 10:12:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=6.0, y=5.0] and Point[x=2.1, y=3.6] for valid ellipse : true
-2021-10-15 10:12:57 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=6.0, y=5.0] and Point[x=2.1, y=3.6] for valid ellipse : true
-2021-10-15 10:12:57 [main] [createEllipse] [24] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]]
-2021-10-15 10:12:57 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: 6 1.2 -5.5 4.3 - true
-2021-10-15 10:12:57 [main] [parseLine] [17] INFO  by.zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [6.0, 1.2, -5.5, 4.3]
-2021-10-15 10:12:58 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=6.0, y=1.2] and Point[x=-5.5, y=4.3] for valid ellipse : true
-2021-10-15 10:12:58 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=6.0, y=1.2] and Point[x=-5.5, y=4.3] for valid ellipse : true
-2021-10-15 10:12:58 [main] [createEllipse] [24] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]]
-2021-10-15 10:12:58 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: 0vbh - false
-2021-10-15 10:12:58 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: -3 4 6.2 -2 - true
-2021-10-15 10:12:58 [main] [parseLine] [17] INFO  by.zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [-3.0, 4.0, 6.2, -2.0]
-2021-10-15 10:12:58 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=-3.0, y=4.0] and Point[x=6.2, y=-2.0] for valid ellipse : true
-2021-10-15 10:12:58 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=-3.0, y=4.0] and Point[x=6.2, y=-2.0] for valid ellipse : true
-2021-10-15 10:12:58 [main] [createEllipse] [24] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]]
-2021-10-15 10:12:58 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.StringValidator - Check line on validity: 1.4 4.2 3.1 3.2 - true
-2021-10-15 10:12:58 [main] [parseLine] [17] INFO  by.zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [1.4, 4.2, 3.1, 3.2]
-2021-10-15 10:12:58 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=1.4, y=4.2] and Point[x=3.1, y=3.2] for valid ellipse : true
-2021-10-15 10:12:58 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=1.4, y=4.2] and Point[x=3.1, y=3.2] for valid ellipse : true
-2021-10-15 10:12:58 [main] [createEllipse] [24] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]]
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] Square= 12.566370614359172
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Square= 2.8274333882308134
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Square= 4.288273972150067
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Square= 27.999444525119028
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Square= 43.35397861953914
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Square= 1.3351768777756623
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] Perimeter= 12.566370614359172
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
-2021-10-15 10:12:58 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] is circle: true
-2021-10-15 10:12:58 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] is circle: false
-2021-10-15 10:12:58 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] is circle: false
-2021-10-15 10:12:58 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] is circle: false
-2021-10-15 10:12:58 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] is circle: false
-2021-10-15 10:12:58 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] is circle: false
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] Square= 12.566370614359172
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] Perimeter= 12.566370614359172
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Square= 2.8274333882308134
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Square= 4.288273972150067
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Square= 27.999444525119028
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Square= 43.35397861953914
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Square= 1.3351768777756623
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Square= 2.945243112740431
-2021-10-15 10:12:58 [main] [updateParameters] [28] INFO  zvezdina.shapes.observer.impl.EllipseObserverImpl - Parameters of the ellipse were updated: Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]]
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
-2021-10-15 10:12:58 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Square= 2.945243112740431
-2021-10-15 10:12:58 [main] [updateParameters] [28] INFO  zvezdina.shapes.observer.impl.EllipseObserverImpl - Parameters of the ellipse were updated: Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]]
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
-2021-10-15 10:12:58 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
+2021-10-22 02:39:01 [main] [readLines] [29] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - Read file data/example1.txt
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - -2 -2 2 2
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: -2 -2 2 2 - true
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - 66
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: 66 - false
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - 
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity:  - false
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - mmu rr 6 7
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: mmu rr 6 7 - false
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - 2.1 -3.4 2.5 5.6
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: 2.1 -3.4 2.5 5.6 - true
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - 6 5 2.1 3.6
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: 6 5 2.1 3.6 - true
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - 6 1.2 -5.5 4.3
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: 6 1.2 -5.5 4.3 - true
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - 0vbh
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: 0vbh - false
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - -3 4 6.2 -2
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: -3 4 6.2 -2 - true
+2021-10-22 02:39:01 [main] [lambda$readLines$0] [32] INFO  zvezdina.shapes.reader.impl.EllipseReaderImpl - 1.4 4.2 3.1 3.2
+2021-10-22 02:39:01 [main] [isLineValid] [13] INFO  by.zvezdina.shapes.validator.DoubleNumbersValidator - Check line on validity: 1.4 4.2 3.1 3.2 - true
+2021-10-22 02:39:01 [main] [parseLine] [18] INFO  zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [-2.0, -2.0, 2.0, 2.0]
+2021-10-22 02:39:01 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=-2.0, y=-2.0] and Point[x=2.0, y=2.0] for valid ellipse : true
+2021-10-22 02:39:01 [main] [createEllipse] [39] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]]
+2021-10-22 02:39:01 [main] [parseLine] [18] INFO  zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [2.1, -3.4, 2.5, 5.6]
+2021-10-22 02:39:01 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=2.1, y=-3.4] and Point[x=2.5, y=5.6] for valid ellipse : true
+2021-10-22 02:39:01 [main] [createEllipse] [39] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]]
+2021-10-22 02:39:01 [main] [parseLine] [18] INFO  zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [6.0, 5.0, 2.1, 3.6]
+2021-10-22 02:39:01 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=6.0, y=5.0] and Point[x=2.1, y=3.6] for valid ellipse : true
+2021-10-22 02:39:01 [main] [createEllipse] [39] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]]
+2021-10-22 02:39:01 [main] [parseLine] [18] INFO  zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [6.0, 1.2, -5.5, 4.3]
+2021-10-22 02:39:01 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=6.0, y=1.2] and Point[x=-5.5, y=4.3] for valid ellipse : true
+2021-10-22 02:39:01 [main] [createEllipse] [39] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]]
+2021-10-22 02:39:01 [main] [parseLine] [18] INFO  zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [-3.0, 4.0, 6.2, -2.0]
+2021-10-22 02:39:01 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=-3.0, y=4.0] and Point[x=6.2, y=-2.0] for valid ellipse : true
+2021-10-22 02:39:01 [main] [createEllipse] [39] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]]
+2021-10-22 02:39:01 [main] [parseLine] [18] INFO  zvezdina.shapes.parser.impl.EllipseParserImpl - Result of parsing line: [1.4, 4.2, 3.1, 3.2]
+2021-10-22 02:39:01 [main] [isEllipseValid] [13] INFO  by.zvezdina.shapes.validator.EllipseValidator - Check points: Point[x=1.4, y=4.2] and Point[x=3.1, y=3.2] for valid ellipse : true
+2021-10-22 02:39:01 [main] [createEllipse] [39] INFO  by.zvezdina.shapes.factory.EllipseFactory - New ellipse created: Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]]
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] Square= 12.566370614359172
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Square= 2.8274333882308134
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Square= 4.288273972150067
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Square= 27.999444525119028
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Square= 43.35397861953914
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Square= 1.3351768777756623
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] Perimeter= 12.566370614359172
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] is circle: true
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] is circle: false
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] is circle: false
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] is circle: false
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] is circle: false
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] is circle: false
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] Square= 12.566370614359172
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.0, y=-2.0], point2=Point[x=2.0, y=2.0]] Perimeter= 12.566370614359172
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Square= 2.8274333882308134
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Square= 4.288273972150067
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Square= 27.999444525119028
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Square= 43.35397861953914
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Square= 1.3351768777756623
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Square= 2.945243112740431
+2021-10-22 02:39:01 [main] [updateParameters] [28] INFO  zvezdina.shapes.observer.impl.EllipseObserverImpl - Parameters of the ellipse were updated: Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]]
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
+2021-10-22 02:39:01 [main] [calculateSquare] [36] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Square= 2.945243112740431
+2021-10-22 02:39:01 [main] [updateParameters] [28] INFO  zvezdina.shapes.observer.impl.EllipseObserverImpl - Parameters of the ellipse were updated: Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]]
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] Perimeter= 6.476559171707595
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] Perimeter= 20.012709626539984
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] Perimeter= 9.204920085658111
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] Perimeter= 26.45847766159777
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] Perimeter= 24.399478221341333
+2021-10-22 02:39:01 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] Perimeter= 4.381367430394168
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=3.5, y=4.5], point2=Point[x=2.0, y=2.0]] is circle: false
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=2.1, y=-3.4], point2=Point[x=2.5, y=5.6]] is circle: false
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=6.0, y=5.0], point2=Point[x=2.1, y=3.6]] is circle: false
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=6.0, y=1.2], point2=Point[x=-5.5, y=4.3]] is circle: false
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=5, point1=Point[x=-3.0, y=4.0], point2=Point[x=6.2, y=-2.0]] is circle: false
+2021-10-22 02:39:01 [main] [checkIfDegenerate] [51] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=6, point1=Point[x=1.4, y=4.2], point2=Point[x=3.1, y=3.2]] is circle: false

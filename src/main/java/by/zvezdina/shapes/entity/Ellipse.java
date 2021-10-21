@@ -79,8 +79,7 @@ public class Ellipse implements EllipseObservable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Ellipse ellipse = (Ellipse) o;
-        return ellipseId == ellipse.ellipseId &&
-                point1.equals(ellipse.point1) &&
+        return  point1.equals(ellipse.point1) &&
                 point2.equals(ellipse.point2) &&
                 observers.equals(ellipse.observers);
     }
@@ -89,7 +88,6 @@ public class Ellipse implements EllipseObservable {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + Integer.hashCode(ellipseId);
         result = prime * result + point1.hashCode();
         result = prime * result + point2.hashCode();
         result = prime * result + observers.hashCode();

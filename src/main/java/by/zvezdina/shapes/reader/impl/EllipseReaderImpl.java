@@ -2,14 +2,13 @@ package by.zvezdina.shapes.reader.impl;
 
 import by.zvezdina.shapes.exception.EllipseException;
 import by.zvezdina.shapes.reader.EllipseReader;
+import by.zvezdina.shapes.validator.DoubleNumbersValidator;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -31,6 +30,7 @@ public class EllipseReaderImpl implements EllipseReader {
         List<String> lines = new ArrayList<>();
         try(Stream<String> streamLines = Files.lines(path)) {
             lines = streamLines.peek(line -> logger.log(Level.INFO, line))
+                    .filter(DoubleNumbersValidator::isLineValid)
                     .collect(Collectors.toList());
         } catch (IOException e) {
             logger.log(Level.ERROR, "Error while reading file " + filePath);
