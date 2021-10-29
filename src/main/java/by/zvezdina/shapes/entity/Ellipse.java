@@ -3,8 +3,7 @@ package by.zvezdina.shapes.entity;
 import by.zvezdina.shapes.observer.EllipseEvent;
 import by.zvezdina.shapes.observer.EllipseObservable;
 import by.zvezdina.shapes.observer.EllipseObserver;
-import by.zvezdina.shapes.util.Generator;
-import org.apache.logging.log4j.Level;
+import by.zvezdina.shapes.util.GeneratorId;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -24,7 +23,7 @@ public class Ellipse implements EllipseObservable {
     public Ellipse(Point point1, Point point2) {
         this.point1 = point1;
         this.point2 = point2;
-        this.ellipseId = Generator.generateId();
+        this.ellipseId = GeneratorId.generateId();
     }
 
     @Override

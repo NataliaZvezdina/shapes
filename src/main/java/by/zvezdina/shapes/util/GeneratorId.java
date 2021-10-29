@@ -1,6 +1,6 @@
 package by.zvezdina.shapes.util;
 
-public class Generator {
+public class GeneratorId {
     private static int count;
 
     public static int generateId() {
