@@ -8,9 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 public class EllipseFactory {
     private static final Logger logger = LogManager.getLogger();
@@ -22,7 +20,7 @@ public class EllipseFactory {
 
     public static Optional<Ellipse> createEllipse(double[] coordinates) {
         if (coordinates.length != CORRECT_NUMBER_OF_COORDINATES) {
-            logger.log(Level.ERROR, "Cannot create create ellipse from data: " + Arrays.toString(coordinates) +
+            logger.log(Level.INFO, "Cannot create create ellipse from data: " + Arrays.toString(coordinates) +
                     " Incorrect number of coordinates");
             return Optional.empty();
         }
@@ -31,7 +29,7 @@ public class EllipseFactory {
         Point point2 = new Point(coordinates[THIRD_COORDINATE_INDEX], coordinates[FOURTH_COORDINATE_INDEX]);
 
         if (!EllipseValidator.isEllipseValid(point1, point2)) {
-            logger.log(Level.ERROR, "Cannot create ellipse from data: " + Arrays.toString(coordinates));
+            logger.log(Level.INFO, "Cannot create ellipse from data: " + Arrays.toString(coordinates));
             return Optional.empty();
         }
 
@@ -39,6 +37,4 @@ public class EllipseFactory {
         logger.log(Level.INFO, "New ellipse created: " + ellipse);
         return Optional.of(ellipse);
     }
-
-
 }

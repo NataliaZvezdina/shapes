@@ -6,12 +6,12 @@ import by.zvezdina.shapes.service.CalculationService;
 import by.zvezdina.shapes.service.impl.CalculationServiceImpl;
 
 public class PerimeterRangeSpecificationImpl implements EllipseSpecification {
-    private double from;
-    private double to;
+    private double min;
+    private double max;
 
-    public PerimeterRangeSpecificationImpl(double from, double to) {
-        this.from = from;
-        this.to = to;
+    public PerimeterRangeSpecificationImpl(double min, double max) {
+        this.min = min;
+        this.max = max;
     }
 
     @Override
@@ -19,6 +19,6 @@ public class PerimeterRangeSpecificationImpl implements EllipseSpecification {
         CalculationService service = new CalculationServiceImpl();
         double perimeter = service.calculatePerimeter(ellipse);
 
-        return perimeter >= from && perimeter <= to;
+        return perimeter >= min && perimeter <= max;
     }
 }

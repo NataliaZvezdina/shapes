@@ -1,0 +1,4 @@
+2021-10-29 00:47:19 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=1, point1=Point[x=-2.3, y=-4.5], point2=Point[x=2.1, y=8.7]] Perimeter= 30.90918481657919
+2021-10-29 00:47:19 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=2, point1=Point[x=1.2, y=2.3], point2=Point[x=2.5, y=3.5]] Perimeter= 3.930131154008076
+2021-10-29 00:47:19 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=3, point1=Point[x=1.1, y=2.3], point2=Point[x=2.4, y=2.8]] Perimeter= 3.0941099316373157
+2021-10-29 00:47:19 [main] [calculatePerimeter] [22] INFO  zvezdina.shapes.service.impl.CalculationServiceImpl - Ellipse[ellipseId=4, point1=Point[x=2.5, y=3.5], point2=Point[x=6.8, y=8.5]] Perimeter= 14.649728587987154
